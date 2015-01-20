@@ -1,0 +1,15 @@
+{
+  "name": "aws_logger",
+  "version": "1.0.0",
+  "description": "Sends stdout and stderr of child process to AWS CloudWatch Logs",
+  "main": "aws_logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stan Blosser",
+  "license": "Private",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.1.5"
+  }
+}
