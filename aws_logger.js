@@ -1,4 +1,4 @@
-#!/usr/bin/evn node
+#!/usr/bin/env node
 var LOG_NAME = process.env.LOG_NAME;
 
 if (typeof LOG_NAME == 'undefined') {
